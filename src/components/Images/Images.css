@@ -6,14 +6,15 @@
     overflow-x: hidden;
     background-color: transparent;
     box-sizing: border-box;
-    padding: 60px;
-    width: 60%;
+    padding: 20px;
+    width: 50%;
     margin: auto;
 }
 
 .Images{
     height: 300px;
-    width: 80%;
+    width: 97%;
+    max-width: 97%;
     margin: auto;
     padding: 20px;
     border-radius: 20px;
@@ -28,6 +29,6 @@
 
 @media(max-width: 1020px){
     .ImagesDiv {
-        width: 80%;
+        width: 75%;
     }
 }

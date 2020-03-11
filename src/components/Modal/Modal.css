@@ -6,7 +6,7 @@
     width: 100vh;
     margin: 0;
     top: 0;
-    left: 20%;
+    left: 24%;
 }
 
 .Loader {
@@ -23,6 +23,6 @@
 
 @media(max-width: 1020px){
     .Modal {
-        left: 10%;
+        left: 12%;
     }
 }

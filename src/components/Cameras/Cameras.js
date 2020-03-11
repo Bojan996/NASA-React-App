@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Cameras.css';
+import CameraImg from '../../assets/camera.png';
 
 
 const cameras = (props) =>  {
@@ -37,7 +38,7 @@ const cameras = (props) =>  {
                 <h1>Next Step: Choose a Camera</h1>
                 <div className={classes.CamerasDiv}>
                     <div className={classes.LeftSideCameraDiv}>
-                        <img src='https://cdn.onlinewebfonts.com/svg/img_475261.png' alt='a rover camera and how it looks'/>
+                        <img src={CameraImg} alt='a rover camera and how it looks'/>
                         <p>This is the part where you get to choose which <strong>Camera</strong> would you like to see the pictures from planet Mars</p>
                     </div>
                     <ul>

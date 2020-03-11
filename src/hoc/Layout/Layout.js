@@ -5,6 +5,7 @@ import Cameras from '../../components/Cameras/Cameras';
 import RoverInfo from '../../components/RoverInfo/RoverInfo';
 import axios from '../../AxiosInstances';
 import Modal from '../../components/Modal/Modal';
+import NasaLetter from '../../assets/nasaLetter.png';
 
 
 class Layout extends Component {
@@ -64,13 +65,13 @@ class Layout extends Component {
         let images = null;
 
         if(this.state.showImages || this.state.takeOfbuttonClicked){
-            images = <Modal photos={this.state.roverPhotos} close={this.showImageHandler} loader={this.state.takeOfbuttonClicked}/>;
+            images = <Modal showImages={this.state.showImages} photos={this.state.roverPhotos} close={this.showImageHandler} loader={this.state.takeOfbuttonClicked}/>;
         }
         
 
         return (
             <div className={classes.Layout}>
-                <div className={classes.DivImage}><span></span><span><img src='https://4vector.com/i/free-vector-nasa-logo_090636_NASA_logo.png' alt='The oficial Nasa'/></span><span></span></div>
+                <div className={classes.DivImage}><span></span><span><img src={NasaLetter} alt='The oficial Nasa'/></span><span></span></div>
                             
                             <RoverInfo roverInfo={this.props.roverInfo}/>
                             <Cameras cameras={this.props.cameras} takeOf={this.state.pickingUpData} camera={this.takingCameraName}/>

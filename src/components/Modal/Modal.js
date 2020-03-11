@@ -7,6 +7,11 @@ import Loader from '../Loader/Loader';
 
 const Modal = (props) => {
 
+    let body = document.querySelector('body');
+    if(props.showImages){
+        body.style = 'overFlow: hidden';
+    }
+
     return(
         props.loader ? 
          <div className={classes.Loader}><Backdrop close={props.close}/> <Loader/></div>

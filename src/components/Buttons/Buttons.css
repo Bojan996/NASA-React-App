@@ -57,3 +57,9 @@
     margin: 20px auto;
   }
 }
+
+@media(max-width: 701px){
+  .Button {
+    width: 80%;
+  }
+}
