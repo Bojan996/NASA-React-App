@@ -61,10 +61,16 @@ html {
   box-shadow: 0 0 20px #00bfa9;
   border-radius: 20px;
   text-align: center;
-  width: 75%;
-  margin: 30px auto;
+  margin: 30px 12%;
   background-color: rgba(245,255,254, 0.8);
   animation: content 3.5s ease-out;
+}
+
+@media (max-width: 640px){
+  .App {
+    margin: 0;
+    border-radius: 0;
+  }
 }
 
 .AppH1{
@@ -336,10 +342,10 @@ html {
 @media (max-width: 1012px){
   @keyframes content { 
     0% {
-      transform: translateY(-150vh);
+      transform: translateY(-160vh);
     }
     70% {
-      transform: translateY(-130vh);
+      transform: translateY(-145vh);
     }
     95%{
       transform: translateY(-10);
