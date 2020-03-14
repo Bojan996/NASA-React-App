@@ -115,7 +115,7 @@
 
   @media (max-width: 480px){
     .ImgDiv {
-        width: 97.5vw;
+        width: 100vw;
         margin-left: -41px;
     }
     .Content {
