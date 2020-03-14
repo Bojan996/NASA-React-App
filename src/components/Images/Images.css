@@ -32,3 +32,14 @@
         width: 75%;
     }
 }
+
+
+@media (max-width: 480px){
+    .ImagesDiv {
+        left: 10%;
+        width: 76%;
+    }
+    .Images{
+        padding: 10px 0;
+    }
+  }

@@ -112,3 +112,14 @@
         width: 100%;
     }
   }
+
+  @media (max-width: 480px){
+    .ImgDiv {
+        width: 97.5vw;
+        margin-left: -41px;
+    }
+    .Content {
+        width: 90vw;
+        margin-left: -31px;
+    }
+  }
