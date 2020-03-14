@@ -339,10 +339,6 @@ html {
   } 
 }
 
-.helloWorld {
-  color: green;
-}
-
 @media (max-width: 1012px){
   @keyframes content { 
     0% {
@@ -358,8 +354,4 @@ html {
       transform: translateY(0);
     }
   }
-}
-
-.Oliver{
-  height: 186cm;
 }
