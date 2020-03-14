@@ -339,6 +339,10 @@ html {
   } 
 }
 
+.Boban {
+  color: red;
+}
+
 @media (max-width: 1012px){
   @keyframes content { 
     0% {
