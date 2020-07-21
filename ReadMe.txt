@@ -1,3 +1,5 @@
+To visit the application: https://nasa-react-app.web.app
+
 This is a React application. To start the aplication navigate to the /NASA-React-App file and type npm start. 
 I made this application because i wanted to practice my React skills with API requests, as well as css animations and JS logic. 
 -------------------------------
