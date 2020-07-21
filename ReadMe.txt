@@ -1,8 +1,8 @@
-This is a React application. To start the aplication navigate to the /src file and type npm start. 
+This is a React application. To start the aplication navigate to the /NASA-React-App file and type npm start. 
 I made this application because i wanted to practice my React skills with API requests, as well as css animations and JS logic. 
 -------------------------------
-The IDEA of the application is to pick a Rover, which is currently on Mars and the API key is provided by NASA itself, and read about that particular rover,
-pick a camera and pick a day(sol) from which you would like to see photos that were taken by this rover of planet Mars. 
+The idea of the application is to pick a Rover, which is currently on Mars and the API key is provided by NASA itself, and read about that particular rover,
+then pick a camera and pick a day(sol) from which you would like to see photos that were taken by this rover of planet Mars. 
 NASA states that these are real photos, so it was quite and interesting chalenge for me because at the end, something unique was made.
 Sometimes it can be a little hard to find photos. For the beginning, my advice would be to choose the FHAZ camera and choose a Sol that is from 50 to 300.
 Probably NASA was very excited when the rovers just landed ;)
